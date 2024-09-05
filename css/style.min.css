@@ -985,13 +985,13 @@ audio {
 .home__sound {
   position: absolute;
   top: 4vw;
-  left: 12%;
+  left: 14%;
   cursor: pointer;
 }
 @media (max-width: 998px) {
   .home__sound {
     top: 5vw;
-    left: 5vw;
+    left: 14vw;
   }
 }
 .home__sound img {
@@ -999,6 +999,26 @@ audio {
 }
 @media (max-width: 998px) {
   .home__sound img {
+    width: 12vw;
+  }
+}
+.home__sound2 {
+  position: absolute;
+  top: 4vw;
+  left: 8%;
+  cursor: pointer;
+}
+@media (max-width: 998px) {
+  .home__sound2 {
+    top: 5vw;
+    left: 2vw;
+  }
+}
+.home__sound2 img {
+  width: 6vw;
+}
+@media (max-width: 998px) {
+  .home__sound2 img {
     width: 12vw;
   }
 }
