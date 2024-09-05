@@ -1211,11 +1211,15 @@ audio {
   top: -6vw;
   left: 13vw;
   transform: rotate(2.824deg);
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(1) {
     width: 40vw;
     left: 10vw;
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 .memes__item:nth-child(2) {
@@ -1224,12 +1228,16 @@ audio {
   transform: rotate(8.824deg);
   right: 13vw;
   left: auto;
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(2) {
     width: 40vw;
     right: 1vw;
     transform: rotate(-8.824deg);
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 .memes__item:nth-child(3) {
@@ -1237,6 +1245,8 @@ audio {
   top: 25vw;
   transform: rotate(2deg);
   left: 1vw;
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(3) {
@@ -1244,6 +1254,8 @@ audio {
     left: 1vw;
     top: 30vw;
     transform: rotate(6deg);
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 .memes__item:nth-child(4) {
@@ -1251,6 +1263,8 @@ audio {
   top: 57vw;
   transform: rotate(8deg);
   right: 0vw;
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(4) {
@@ -1258,6 +1272,8 @@ audio {
     right: -5vw;
     top: 45vw;
     transform: rotate(8.824deg);
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 .memes__item:nth-child(5) {
@@ -1265,25 +1281,33 @@ audio {
   top: 65vw;
   transform: rotate(3deg);
   left: 3vw;
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(5) {
     width: 36vw;
     left: 1vw;
     transform: rotate(2deg);
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 .memes__item:nth-child(6) {
   width: 35vw;
   top: 70vw;
   transform: rotate(-14deg);
-  right: 30vw;
+  right: 30vw;   
+  border: 4px dashed  black;
+  border-radius: 30px;
 }
 @media (max-width: 998px) {
   .memes__item:nth-child(6) {
     width: 40vw;
     top: 75vw;
     right: 20%;
+    border: 2px dashed  black;
+    border-radius: 10px;
   }
 }
 
