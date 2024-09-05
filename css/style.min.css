@@ -1326,6 +1326,7 @@ audio {
   margin: 0px auto;
   margin-top: 50px;
   padding: 27px 50px;
+  border: 4px dashed black;
   border-radius: 50px;
   background: #fff;
   box-shadow: 25px 25px 18.4px 0px rgba(0, 0, 0, 0.15);
